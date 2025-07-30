@@ -7,7 +7,11 @@ module.exports = {
      "./src/input.css"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'salloo': "url('/img/MyImages/salloo4.jpg')",
+      }
+    },
   },
   plugins: [],
 }
