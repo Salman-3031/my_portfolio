@@ -1,4 +1,7 @@
 // Element references
+console.log(
+"helo"
+)
 const menuToggle = document.getElementById('menuToggle');
 const mobileMenu = document.getElementById('mobileMenu');
 const mobileLinks = document.querySelectorAll('.mobile-links');
