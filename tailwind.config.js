@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./public/**/*.html",
-    "./public/javaScript/**/*.js",
+    "./public/javascript/**/*.js",
      "./public/css/**/*.css",
      './public/img/**/*.{jpg,jpeg,png,webp,svg}',
      "./src/input.css"
@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'salloo': "url('/public/img/MyImages/salloo4.jpg')",
+        'salloo': "url('/img/MyImages/salloo4.jpg')",
       }
     },
   },
