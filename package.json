@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
   
-   "build": "tailwindcss build -i ./src/input.css -o ./public/css/output.css --minify && cp -r public/img .vercel/output/static/"
+   "build": "tailwindcss build -i ./src/input.css -o ./public/css/output.css --minify && cp -r public/javascript && cp -r public/img .vercel/output/static/"
   },
   "keywords": [],
   "author": "",
