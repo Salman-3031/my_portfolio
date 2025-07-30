@@ -4,12 +4,14 @@ module.exports = {
     "./public/**/*.html",
     "./public/javascript/**/*.js",
      "./public/css/**/*.css",
+     './public/img/**/*.{jpg,jpeg,png,webp}',
      "./src/input.css"
   ],
+ 
   theme: {
     extend: {
       backgroundImage: {
-        'salloo': "url('/img/MyImages/salloo4.jpg')",
+        'salloo': "url('/public/img/MyImages/salloo4.jpg')",
       }
     },
   },
